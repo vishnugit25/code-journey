@@ -24,10 +24,34 @@
 #     print("get yo illegal az outtta here")
 
 
-age = int(input("enter age:"))
-if age>= 60 :
-    print("old")
-elif age>= 18:
-        print("adult")
+# age = int(input("enter age:"))
+# if age>= 60 :
+#     print("old")
+# elif age>= 18:
+#         print("adult")
+# else:
+#      print("minor")
+
+
+##calculator
+
+num1 = float(input("Enter n1: "))
+num2 = float(input("enter n2: "))
+
+# print("1. Add")
+# print("2. subtract")
+# print("3. multiply")
+# print("4. divide")
+
+op = input("choose operator: ")
+
+if op == "1":
+    print("result:", num1 + num2)
+# elif op =="2":
+    print("result: ", num1 - num2)
+# elif op == "3":
+    print("result:", num1 * num2)
+# elif op == "4":
+    print("result:", num1 / num2)
 else:
-     print("minor")
+    print("op invalid");
