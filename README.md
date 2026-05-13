@@ -7,7 +7,7 @@ This repository contains my coding practice and backend learning journey.
 - Mini practical projects
 
 ###
-- Calculator
+- Calculator - done
 - Login System
 - ATM System
 - Inventory System
