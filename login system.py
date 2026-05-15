@@ -11,11 +11,16 @@ while attempts > 0:
 
     if username == correct_username and password == correct_password:
         print("login successful")
+        print("Welcome user")
         break
+    
     else:
-        print("invalid cred")
         attempts -= 1 
+        print("invalid cred")
         print("attempts left:", attempts)
+
+        if attempts == 1:
+           print("final attempt!")
 
 if attempts == 0:
     print("acc locked");
