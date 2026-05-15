@@ -84,3 +84,25 @@
 # while count <= 5:
 #     print(count)
 #     count += 1;
+
+
+###lists
+
+# fruits = ["apple","mango","banana"]
+# # print(fruits[0])
+# for fruit in fruits:
+#     print(fruit)
+
+
+# fruits = ["apple","mango","banana"]
+# fruits.append("orange")
+# print(fruits)
+
+
+# fruits = ["apple","mango","orange","banana"]
+# fruits.remove("orange")
+# print(fruits)
+
+fruits = ["apple","mango","orange","banana"]
+print(len(fruits))
+print(len("orange"))
